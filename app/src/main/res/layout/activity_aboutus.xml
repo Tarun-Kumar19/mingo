@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backgroundnew"
+    tools:context=".aboutus"
+   >
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="800dp">
+
+        <TextView
+            android:id="@+id/textView16"
+            android:layout_width="348dp"
+            android:layout_height="50dp"
+            android:fontFamily="@font/montserrat_thin"
+            android:text="Who are we ?"
+            android:textColor="#262423"
+            android:textSize="24sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.492"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.042" />
+
+        <TextView
+            android:id="@+id/textView17"
+            android:layout_width="346dp"
+            android:layout_height="176dp"
+            android:fontFamily="@font/alegreya_sans"
+            android:justificationMode="inter_word"
+            android:lineSpacingExtra="4.3dp"
+            android:text="If someone lets you know that they are experiencing difficult thoughts and feelings, it's common to feel like you don't know what to do or say.
+But you don't need any special training to show someone you care about them. Often just being there for someone and doing small things can be really valuable."
+            android:textSize="16sp"
+
+            app:layout_constraintEnd_toEndOf="@+id/textView16"
+            app:layout_constraintStart_toStartOf="@+id/textView16"
+            app:layout_constraintTop_toBottomOf="@+id/textView16" />
+
+        <TextView
+            android:id="@+id/textView18"
+            android:layout_width="346dp"
+            android:layout_height="39dp"
+            android:layout_marginTop="252dp"
+            android:fontFamily="@font/montserrat_bold"
+            android:text="Developers"
+            android:textColor="#262423"
+            android:textSize="24sp"
+            app:layout_constraintEnd_toEndOf="@+id/textView17"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="@+id/textView17"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cardView4"
+            android:layout_width="370dp"
+            android:layout_height="95dp"
+            android:layout_marginTop="24dp"
+            app:cardCornerRadius="10dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="@+id/textView18"
+            app:layout_constraintTop_toBottomOf="@+id/textView18">
+
+            <TextView
+                android:id="@+id/textView19"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="100dp"
+                android:layout_marginTop="15dp"
+                android:fontFamily="@font/alegreya"
+                android:text="Gaurav Kumar"
+                android:textColor="@color/black"
+                android:textSize="23sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView20"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="100dp"
+                android:layout_marginTop="52dp"
+                android:fontFamily="@font/alegreya_sans"
+                android:text="Android Developer"
+                android:textSize="16sp" />
+
+            <ImageView
+                android:id="@+id/imageView16"
+                android:layout_width="70dp"
+                android:layout_height="60dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="14dp"
+                app:srcCompat="@drawable/gaurav" />
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cardView5"
+            android:layout_width="370dp"
+            android:layout_height="95dp"
+            android:layout_marginTop="16dp"
+            app:cardCornerRadius="10dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="@+id/textView18"
+            app:layout_constraintTop_toBottomOf="@+id/cardView4">
+
+            <TextView
+                android:id="@+id/textView191"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="100dp"
+                android:layout_marginTop="15dp"
+                android:fontFamily="@font/alegreya"
+                android:text="Ujjwal Karan"
+                android:textColor="@color/black"
+                android:textSize="23sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView201"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="100dp"
+                android:layout_marginTop="52dp"
+                android:fontFamily="@font/alegreya_sans"
+                android:text="Android Developer"
+                android:textSize="16sp" />
+
+            <ImageView
+                android:id="@+id/imageView17"
+                android:layout_width="70dp"
+                android:layout_height="60dp"
+                android:layout_marginTop="14dp"
+                android:layout_marginLeft="15dp"
+                app:srcCompat="@drawable/hgu" />
+
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cardView6"
+            android:layout_width="370dp"
+            android:layout_height="95dp"
+            android:layout_marginTop="24dp"
+            app:cardCornerRadius="10dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="@+id/textView18"
+            app:layout_constraintTop_toBottomOf="@+id/cardView5">
+
+            <TextView
+                android:id="@+id/textView192"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="100dp"
+                android:layout_marginTop="15dp"
+                android:fontFamily="@font/alegreya"
+                android:text="Tarun Kumar"
+                android:textColor="@color/black"
+                android:textSize="23sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView202"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="100dp"
+                android:layout_marginTop="52dp"
+                android:fontFamily="@font/alegreya_sans"
+                android:text="Android Developer"
+                android:textSize="16sp" />
+
+            <ImageView
+                android:id="@+id/imageView19"
+                android:layout_width="70dp"
+                android:layout_marginLeft="15dp"
+               android:layout_marginTop="14dp"
+                android:layout_height="60dp"
+                app:srcCompat="@drawable/tarun" />
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="370dp"
+            android:layout_height="95dp"
+            android:layout_marginTop="244dp"
+            app:cardCornerRadius="10dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="@+id/textView18"
+            app:layout_constraintTop_toBottomOf="@+id/cardView4">
+
+            <TextView
+                android:id="@+id/textView193"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="100dp"
+                android:layout_marginTop="15dp"
+                android:fontFamily="@font/alegreya"
+                android:text="Sounak Chakraborty"
+                android:textColor="@color/black"
+                android:textSize="23sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView203"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="100dp"
+                android:layout_marginTop="52dp"
+                android:fontFamily="@font/alegreya_sans"
+                android:text="ML Engineer"
+                android:textSize="16sp" />
+
+            <ImageView
+                android:id="@+id/imageView20"
+                android:layout_width="70dp"
+                android:layout_height="60dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="14dp"
+
+                app:srcCompat="@drawable/sounak" />
+        </androidx.cardview.widget.CardView>
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</RelativeLayout>
+</ScrollView>

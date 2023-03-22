@@ -1,0 +1,15 @@
+<GridView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/bubble_grids"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:numColumns="5"
+    android:horizontalSpacing="5dp"
+    android:verticalSpacing="5dp"
+    android:padding="5dp"
+    android:stretchMode="columnWidth"
+    android:gravity="center"
+    android:clickable="true"
+    android:focusable="true"
+    >
+
+</GridView>

@@ -1,0 +1,467 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/scrollv"
+    tools:context=".loggedA"
+    android:background="#561993"
+    android:paddingTop="18dp"
+    >
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="730dp"
+
+        >
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/cl"
+            android:layout_width="match_parent"
+            android:layout_height="748dp"
+
+            >
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/photo"
+                android:layout_width="45dp"
+                android:layout_height="50dp"
+                android:layout_centerInParent="true"
+                android:layout_marginLeft="132dp"
+                android:layout_marginEnd="32dp"
+                android:src="@drawable/ellipse_2"
+                app:civ_border_color="#0448F3"
+                app:civ_border_width="1dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.023" />
+
+            <TextView
+                android:id="@+id/wlcmtxt"
+                android:layout_width="252dp"
+                android:layout_height="79dp"
+                android:fontFamily="@font/alegreya_bold"
+                android:text="Welcome Back, \nUjjwal"
+                android:textColor="@color/white"
+                android:textSize="30sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.207"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.049" />
+
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="348dp"
+                android:layout_height="35dp"
+                android:fontFamily="@font/alegreya_sans"
+                android:text="How are you feeling today?"
+                android:textColor="#F6F5F5"
+                android:textSize="16sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="@+id/wlcmtxt"
+                app:layout_constraintTop_toBottomOf="@+id/wlcmtxt"
+                app:layout_constraintVertical_bias="0.03" />
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cardView"
+                android:layout_width="100sp"
+                android:layout_height="100sp"
+                android:layout_marginTop="20dp"
+                app:cardCornerRadius="20dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.106"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView3">
+
+                <ImageView
+                    android:id="@+id/happyimg"
+                    android:layout_width="64dp"
+                    android:layout_height="65dp"
+                    android:layout_marginLeft="19dp"
+                    android:layout_marginTop="11dp"
+                    app:srcCompat="@drawable/happy" />
+
+                <TextView
+                    android:id="@+id/happytext"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="31dp"
+                    android:layout_marginTop="74sp"
+                    android:fontFamily="@font/alegreya_sans"
+                    android:text="Happy"
+                    android:textColor="@color/black"
+                    android:textSize="16sp"
+                    android:textStyle="normal" />
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/sadcard"
+                android:layout_width="100sp"
+                android:layout_height="100sp"
+                android:layout_marginStart="37dp"
+                android:layout_marginTop="20dp"
+                app:cardCornerRadius="20dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.448"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView3">
+
+                <ImageView
+                    android:id="@+id/sadimage"
+                    android:layout_width="64dp"
+                    android:layout_height="65dp"
+                    android:layout_marginLeft="19dp"
+                    android:layout_marginTop="11dp"
+                    app:srcCompat="@drawable/sad" />
+
+                <TextView
+                    android:id="@+id/sadtext"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="39dp"
+                    android:layout_marginTop="75sp"
+                    android:fontFamily="@font/alegreya_sans"
+                    android:text="Sad"
+
+                    android:textColor="@color/black"
+                    android:textSize="16sp"
+                    android:textStyle="normal" />
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/lonelycard"
+                android:layout_width="100sp"
+                android:layout_height="100sp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="20dp"
+                app:cardCornerRadius="20dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.903"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView3">
+
+                <ImageView
+                    android:id="@+id/lonelyimage"
+                    android:layout_width="64dp"
+                    android:layout_height="65dp"
+                    android:layout_marginLeft="19dp"
+                    android:layout_marginTop="11dp"
+                    app:srcCompat="@drawable/lonely" />
+
+                <TextView
+                    android:id="@+id/lonelytext"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="33dp"
+                    android:layout_marginTop="74sp"
+                    android:fontFamily="@font/alegreya_sans"
+                    android:text="Lonely"
+
+                    android:textColor="@color/black"
+                    android:textSize="16sp"
+                    android:textStyle="normal" />
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/angrycard"
+                android:layout_width="100sp"
+                android:layout_height="100sp"
+                android:layout_marginTop="25dp"
+                app:cardCornerRadius="20dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.106"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/cardView">
+
+                <ImageView
+                    android:id="@+id/angryimg"
+                    android:layout_width="64dp"
+                    android:layout_height="65dp"
+                    android:layout_marginLeft="19dp"
+                    android:layout_marginTop="11dp"
+                    app:srcCompat="@drawable/angry" />
+
+                <TextView
+                    android:id="@+id/angrytext"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="31dp"
+                    android:layout_marginTop="74sp"
+                    android:fontFamily="@font/alegreya_sans"
+                    android:text="Angry"
+                    android:textColor="@color/black"
+                    android:textSize="16sp"
+                    android:textStyle="normal" />
+            </androidx.cardview.widget.CardView>
+
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/relaxcard"
+                android:layout_width="100sp"
+                android:layout_height="100sp"
+                android:layout_marginTop="24dp"
+                app:cardCornerRadius="20dp"
+                app:layout_constraintEnd_toStartOf="@+id/focuscard"
+                app:layout_constraintHorizontal_bias="0.568"
+                app:layout_constraintStart_toEndOf="@+id/angrycard"
+                app:layout_constraintTop_toBottomOf="@+id/sadcard">
+
+                <ImageView
+                    android:id="@+id/relaximg"
+                    android:layout_width="56dp"
+                    android:layout_height="53dp"
+                    android:layout_marginLeft="19dp"
+                    android:layout_marginTop="11dp"
+                    app:srcCompat="@drawable/relax" />
+
+                <TextView
+                    android:id="@+id/relaxtext"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="33dp"
+                    android:layout_marginTop="74sp"
+                    android:fontFamily="@font/alegreya_sans"
+                    android:text="Relax"
+                    android:textColor="@color/black"
+                    android:textSize="16sp"
+                    android:textStyle="normal" />
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/focuscard"
+                android:layout_width="100sp"
+                android:layout_height="100sp"
+                android:layout_marginTop="24dp"
+                app:cardCornerRadius="20dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.913"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/lonelycard">
+
+                <ImageView
+                    android:id="@+id/focusimg"
+                    android:layout_width="57dp"
+                    android:layout_height="54dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="11dp"
+                    app:srcCompat="@drawable/focus" />
+
+                <TextView
+                    android:id="@+id/focustext"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="34dp"
+                    android:layout_marginTop="74sp"
+                    android:fontFamily="@font/alegreya_sans"
+                    android:text="Focus"
+                    android:textColor="@color/black"
+                    android:textSize="16sp"
+                    android:textStyle="normal" />
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/kitcard1"
+                android:layout_width="155dp"
+                android:layout_height="62dp"
+                android:layout_marginTop="24dp"
+                android:paddingTop="500dp"
+                android:paddingBottom="90dp"
+                app:cardBackgroundColor="#F4F3F1"
+                app:cardCornerRadius="20dp"
+
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="@+id/textView8"
+                app:layout_constraintTop_toBottomOf="@+id/textView8">
+
+                <ImageView
+                    android:id="@+id/kitlogo1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15sp"
+                    android:layout_marginTop="20sp"
+
+                    app:srcCompat="@drawable/journal" />
+
+                <TextView
+                    android:id="@+id/kittext1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="43dp"
+                    android:layout_marginTop="19dp"
+                    android:fontFamily="@font/epilogue_extrabold"
+                    android:text="Journals"
+                    android:textColor="#573926"
+                    android:textSize="15sp"
+                    android:textStyle="bold" />
+            </androidx.cardview.widget.CardView>
+
+            <com.airbnb.lottie.LottieAnimationView
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:id="@+id/music"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.903"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.709"
+                app:lottie_autoPlay="true"
+                app:lottie_loop="true"
+                app:lottie_rawRes="@raw/hh" />
+
+            <com.airbnb.lottie.LottieAnimationView
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="1.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.607"
+                app:lottie_autoPlay="true"
+                app:lottie_colorFilter="@color/white"
+                app:lottie_loop="true"
+                app:lottie_rawRes="@raw/mm" />
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/card1"
+                android:layout_width="350dp"
+                android:layout_height="157dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="30sp"
+                android:layout_marginRight="20dp"
+                android:layout_marginBottom="12dp"
+                android:paddingTop="30sp"
+                app:cardBackgroundColor="#FCE7DD"
+                app:cardCornerRadius="20dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.428"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/kitcard1"
+                app:layout_constraintVertical_bias="0.2">
+
+                <ImageView
+                    android:id="@+id/toolimg1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="220sp"
+                    android:layout_marginTop="40sp"
+                    app:srcCompat="@drawable/quote" />
+
+                <TextView
+                    android:id="@+id/tooltext1"
+                    android:layout_width="182dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20sp"
+                    android:layout_marginTop="20sp"
+
+                    android:fontFamily="@font/alegreya"
+                    android:text="Quote of the Day"
+                    android:textColor="@color/black"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/toolsubtext1"
+                    android:layout_width="182dp"
+                    android:layout_height="45dp"
+                    android:layout_marginLeft="20sp"
+                    android:layout_marginTop="55sp"
+                    android:fontFamily="@font/alegreya_sans"
+                    android:text="Let’s open up to the  thing that matters amoung the people "
+                    android:textColor="@color/black"
+                    android:textSize="14sp" />
+
+            </androidx.cardview.widget.CardView>
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="187dp"
+                android:layout_height="36dp"
+                android:layout_marginStart="4dp"
+                android:layout_marginTop="29dp"
+                android:fontFamily="@font/epilogue_extrabold"
+                android:text="Tools"
+                android:textColor="#FE8235"
+                android:textSize="25sp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.005"
+                app:layout_constraintStart_toStartOf="@+id/angrycard"
+                app:layout_constraintTop_toBottomOf="@+id/relaxcard" />
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_below="@+id/cl"
+            android:layout_centerHorizontal="true"
+            android:id="@+id/clend"
+            >
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/card2"
+                android:layout_width="350dp"
+                android:layout_height="157dp"
+                android:layout_margin="20dp"
+                android:layout_marginTop="16dp"
+                android:paddingBottom="30dp"
+                app:cardBackgroundColor="#FCDDEC"
+                app:cardCornerRadius="20dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.384"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="@id/clend">
+
+
+                <ImageView
+                    android:id="@+id/toolimg2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="220sp"
+                    android:layout_marginTop="40sp"
+                    app:srcCompat="@drawable/meetup_icon" />
+
+                <TextView
+                    android:id="@+id/tooltext2"
+                    android:layout_width="182dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20sp"
+                    android:layout_marginTop="20sp"
+
+                    android:fontFamily="@font/alegreya"
+                    android:text="Consult an Expert"
+                    android:textColor="@color/black"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/toolsubtext2"
+                    android:layout_width="182dp"
+                    android:layout_height="45dp"
+                    android:layout_marginLeft="20sp"
+                    android:layout_marginTop="55sp"
+                    android:fontFamily="@font/alegreya_sans"
+                    android:text="Let’s open up to the  thing that matters amoung the people "
+                    android:textColor="@color/black"
+                    android:textSize="14sp" />
+            </androidx.cardview.widget.CardView>
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+    </RelativeLayout>
+
+</ScrollView>

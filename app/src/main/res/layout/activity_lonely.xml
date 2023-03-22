@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:background="@drawable/backgroundnew"
+tools:context=".lonely">
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="730dp">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/cl"
+        android:layout_width="match_parent"
+        android:layout_height="748dp">
+
+        <com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView
+            android:id="@+id/youtube_player_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintBottom_toTopOf="@+id/textView13"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.47"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.708"
+            app:videoId="null"
+            app:autoPlay="true"
+            />
+
+        <TextView
+            android:id="@+id/textView12"
+            android:layout_width="306dp"
+            android:layout_height="41dp"
+            android:fontFamily="@font/alatsi"
+            android:paddingLeft="10dp"
+            android:text="Videos"
+            android:textColor="@color/black"
+            android:textSize="22sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.152"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.05" />
+
+        <TextView
+            android:id="@+id/textView13"
+            android:layout_width="306dp"
+            android:layout_height="41dp"
+            android:fontFamily="@font/alatsi"
+            android:text="Songs"
+            android:textColor="@color/black"
+            android:textSize="22sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.152"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.517" />
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cardView2"
+            android:layout_width="378dp"
+            android:layout_height="87dp"
+            android:layout_marginTop="12dp"
+            app:cardCornerRadius="10dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="@+id/textView13"
+            app:layout_constraintTop_toBottomOf="@+id/textView13">
+
+            <ImageView
+                android:id="@+id/imageView4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="12dp"
+                app:srcCompat="@drawable/rectangle_25"
+
+                />
+
+            <TextView
+                android:id="@+id/textView14"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="100dp"
+                android:layout_marginTop="12dp"
+                android:fontFamily="@font/alegreya_sans"
+                android:text="Mountaineers"
+
+                android:textColor="@color/black"
+                android:textFontWeight="500"
+                android:textSize="24sp" />
+
+            <TextView
+                android:id="@+id/textView15"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="100dp"
+                android:layout_marginTop="49dp"
+                android:fontFamily="@font/alegreya_sans"
+                android:text="20min"
+                android:textFontWeight="300"
+                android:textSize="16dp" />
+
+            <ImageView
+                android:id="@+id/pause"
+                android:layout_width="33dp"
+                android:layout_height="33dp"
+                android:layout_marginLeft="280dp"
+                android:layout_marginTop="25dp"
+                app:srcCompat="@drawable/pausebutton" />
+
+            <ImageView
+                android:id="@+id/imageView6"
+                android:layout_width="33dp"
+                android:layout_height="33dp"
+                android:layout_marginLeft="325dp"
+                android:layout_marginTop="25dp"
+                app:srcCompat="@drawable/play" />
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cardView3"
+            android:layout_width="378dp"
+            android:layout_height="87dp"
+            android:layout_marginTop="12dp"
+            app:cardCornerRadius="10dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="@+id/cardView2"
+            app:layout_constraintTop_toBottomOf="@+id/cardView2">
+
+            <ImageView
+                android:id="@+id/imageView7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="12dp"
+                app:srcCompat="@drawable/rectangle_28"
+
+                />
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="100dp"
+                android:layout_marginTop="12dp"
+                android:fontFamily="@font/alegreya_sans"
+                android:text="Hill Sides"
+
+                android:textColor="@color/black"
+                android:textFontWeight="500"
+                android:textSize="24sp" />
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="100dp"
+                android:layout_marginTop="49dp"
+                android:fontFamily="@font/alegreya_sans"
+                android:text="09min"
+                android:textFontWeight="300"
+                android:textSize="16dp" />
+
+            <ImageView
+                android:id="@+id/pause2"
+                android:layout_width="33dp"
+                android:layout_height="33dp"
+                android:layout_marginLeft="280dp"
+                android:layout_marginTop="25dp"
+                app:srcCompat="@drawable/pausebutton" />
+
+            <ImageView
+                android:id="@+id/play2"
+                android:layout_width="33dp"
+                android:layout_height="33dp"
+                android:layout_marginLeft="325dp"
+                android:layout_marginTop="25dp"
+                app:srcCompat="@drawable/play" />
+
+        </androidx.cardview.widget.CardView>
+
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="378dp"
+            android:layout_height="87dp"
+            android:layout_marginTop="116dp"
+            app:cardCornerRadius="10dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="@+id/cardView3"
+            app:layout_constraintTop_toBottomOf="@+id/cardView2">
+
+            <ImageView
+                android:id="@+id/imageView8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="12dp"
+                app:srcCompat="@drawable/rectangle_26"
+
+                />
+
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="100dp"
+                android:layout_marginTop="12dp"
+                android:fontFamily="@font/alegreya_sans"
+                android:text="Lovely Desert"
+                android:textColor="@color/black"
+                android:textFontWeight="500"
+                android:textSize="24sp" />
+
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="100dp"
+                android:layout_marginTop="42dp"
+                android:fontFamily="@font/alegreya_sans"
+                android:text="19min"
+                android:textFontWeight="300"
+                android:textSize="16dp" />
+
+            <ImageView
+                android:id="@+id/play3"
+                android:layout_width="33dp"
+                android:layout_height="33dp"
+                android:layout_marginLeft="325dp"
+                android:layout_marginTop="25dp"
+                app:srcCompat="@drawable/play" />
+
+            <ImageView
+                android:id="@+id/pause3"
+                android:layout_width="33dp"
+                android:layout_height="33dp"
+                android:layout_marginLeft="280dp"
+                android:layout_marginTop="25dp"
+                app:srcCompat="@drawable/pausebutton" />
+        </androidx.cardview.widget.CardView>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</RelativeLayout>
+</ScrollView>

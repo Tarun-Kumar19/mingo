@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.allinone">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <queries>
+        <intent>
+            <action android:name="com.google.android.youtube.api.service.START" />
+        </intent>
+    </queries>
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme.Light"
+        tools:targetApi="31">
+        <activity
+            android:name=".quoteoftheday"
+            android:exported="false" />
+        <activity
+            android:name=".aichatbot"
+            android:exported="false" />
+        <activity
+            android:name=".therapist"
+            android:exported="false" />
+        <activity
+            android:name=".focus"
+            android:exported="false" />
+        <activity
+            android:name=".stress"
+            android:exported="false" />
+        <activity
+            android:name=".anxiety"
+            android:exported="false" />
+        <activity
+            android:name=".lonely"
+            android:exported="false" />
+        <activity
+            android:name=".SAD"
+            android:exported="false" />
+        <activity
+            android:name=".angry"
+            android:exported="false" />
+        <activity
+            android:name=".relax"
+            android:exported="false" />
+        <activity
+            android:name=".happy"
+            android:exported="false" />
+        <activity
+            android:name=".sleep"
+            android:exported="false" />
+        <activity
+            android:name=".spiritual"
+            android:exported="false" />
+        <activity
+            android:name=".editprofile"
+            android:exported="false" />
+
+        <receiver
+            android:name=".MyReceiver"
+            android:enabled="true"
+            android:exported="true" />
+        <activity android:name=".DetailsActivity"
+            android:exported="false"/>
+        <activity android:name=".news"
+            android:exported="false"/>
+        <activity
+            android:name=".profilepage"
+            android:exported="false" />
+        <activity android:name=".aboutus"
+            android:exported="false"/>
+        <activity
+            android:name=".bubbleburst"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".aichatbot"
+            android:exported="false"
+            tools:ignore="DuplicateActivity" />
+        <activity
+            android:name=".loggedA"
+            android:exported="false" />
+        <activity
+            android:name=".splashActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

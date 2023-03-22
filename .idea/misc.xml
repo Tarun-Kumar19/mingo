@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Gaurav/Allinone/app/src/main/res/drawable-nodpi/_bg__signup_ek2_shape.xml" value="0.1205" />
+        <entry key="..\:/Users/Gaurav/Allinone/app/src/main/res/drawable-nodpi/rectangle_1_shape.xml" value="0.1205" />
+        <entry key="..\:/Users/Gaurav/Allinone/app/src/main/res/drawable/back_btn.xml" value="0.1" />
+        <entry key="..\:/Users/Gaurav/Allinone/app/src/main/res/drawable/bg_chat_send.xml" value="0.1" />
+        <entry key="..\:/Users/Gaurav/Allinone/app/src/main/res/drawable/border_outline.xml" value="0.1" />
+        <entry key="..\:/Users/Gaurav/Allinone/app/src/main/res/drawable/call_24 (1).xml" value="0.1" />
+        <entry key="..\:/Users/Gaurav/Allinone/app/src/main/res/font/doppio_one.xml" value="0.16296296296296298" />
+        <entry key="..\:/Users/Gaurav/Allinone/app/src/main/res/layout/activity_aboutus.xml" value="0.125" />
+        <entry key="..\:/Users/Gaurav/Allinone/app/src/main/res/layout/activity_after_login_page.xml" value="0.29362880886426596" />
+        <entry key="..\:/Users/Gaurav/Allinone/app/src/main/res/layout/activity_aichatbot.xml" value="0.1" />
+        <entry key="..\:/Users/Gaurav/Allinone/app/src/main/res/layout/activity_angry.xml" value="0.1" />
+        <entry key="..\:/Users/Gaurav/Allinone/app/src/main/res/layout/activity_anxiety.xml" value="0.1" />
+        <entry key="..\:/Users/Gaurav/Allinone/app/src/main/res/layout/activity_bubbleburst.xml" value="0.15677083333333333" />
+        <entry key="..\:/Users/Gaurav/Allinone/app/src/main/res/layout/activity_details.xml" value="0.1" />
+        <entry key="..\:/Users/Gaurav/Allinone/app/src/main/res/layout/activity_editprofile.xml" value="0.2635416666666667" />
+        <entry key="..\:/Users/Gaurav/Allinone/app/src/main/res/layout/activity_focus.xml" value="0.335" />
+        <entry key="..\:/Users/Gaurav/Allinone/app/src/main/res/layout/activity_happy.xml" value="0.25" />
+        <entry key="..\:/Users/Gaurav/Allinone/app/src/main/res/layout/activity_logged.xml" value="0.25" />
+        <entry key="..\:/Users/Gaurav/Allinone/app/src/main/res/layout/activity_lonely.xml" value="0.25" />
+        <entry key="..\:/Users/Gaurav/Allinone/app/src/main/res/layout/activity_main.xml" value="0.335" />
+        <entry key="..\:/Users/Gaurav/Allinone/app/src/main/res/layout/activity_news.xml" value="0.25" />
+        <entry key="..\:/Users/Gaurav/Allinone/app/src/main/res/layout/activity_profilepage.xml" value="0.2625" />
+        <entry key="..\:/Users/Gaurav/Allinone/app/src/main/res/layout/activity_quoteoftheday.xml" value="0.1" />
+        <entry key="..\:/Users/Gaurav/Allinone/app/src/main/res/layout/activity_relax.xml" value="0.2635416666666667" />
+        <entry key="..\:/Users/Gaurav/Allinone/app/src/main/res/layout/activity_sad.xml" value="0.2635416666666667" />
+        <entry key="..\:/Users/Gaurav/Allinone/app/src/main/res/layout/activity_sleep.xml" value="0.25" />
+        <entry key="..\:/Users/Gaurav/Allinone/app/src/main/res/layout/activity_spiritual.xml" value="0.335" />
+        <entry key="..\:/Users/Gaurav/Allinone/app/src/main/res/layout/activity_splash.xml" value="0.24270833333333333" />
+        <entry key="..\:/Users/Gaurav/Allinone/app/src/main/res/layout/activity_spotauth.xml" value="0.25" />
+        <entry key="..\:/Users/Gaurav/Allinone/app/src/main/res/layout/activity_stress.xml" value="0.1" />
+        <entry key="..\:/Users/Gaurav/Allinone/app/src/main/res/layout/activity_therapist.xml" value="0.2062780269058296" />
+        <entry key="..\:/Users/Gaurav/Allinone/app/src/main/res/layout/adapter_message_one.xml" value="0.1" />
+        <entry key="..\:/Users/Gaurav/Allinone/app/src/main/res/layout/bottomavigationview.xml" value="0.25" />
+        <entry key="..\:/Users/Gaurav/Allinone/app/src/main/res/layout/bubble.xml" value="0.15572916666666667" />
+        <entry key="..\:/Users/Gaurav/Allinone/app/src/main/res/layout/headline_list_item.xml" value="0.1" />
+        <entry key="..\:/Users/Gaurav/Allinone/app/src/main/res/layout/signup.xml" value="0.25" />
+        <entry key="..\:/Users/Gaurav/Allinone/app/src/main/res/menu/bottom_navigation_menu.xml" value="0.1361111111111111" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

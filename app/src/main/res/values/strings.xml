@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- signup strings -->
+    <string name="api_key">371414d784e246969c66a7c543271e0b</string>
+    <string name="app_name">Design + Prototype</string>
+    <string name="ek_img_content">ExportKit Image</string>
+    <string name="first_name_string">First Name</string>
+    <string name="last_name_string">Last Name </string>
+    <string name="age_string">Age</string>
+    <string name="mobile_string">Mobile</string>
+    <string name="home" />
+    <string name="todo">TODO</string>
+</resources>

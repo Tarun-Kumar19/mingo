@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<!-- signup colors -->
+
+	<color name="colorPrimary">#008577</color>
+	<color name="colorPrimaryDark">#00574B</color>
+	<color name="colorAccent">#D81B60</color>
+	<color name="purple_200">#FFBB86FC</color>
+	<color name="purple_500">#FF6200EE</color>
+	<color name="purple_700">#FF3700B3</color>
+	<color name="teal_200">#FF03DAC5</color>
+	<color name="teal_700">#FF018786</color>
+	<color name="black">#FF000000</color>
+	<color name="white">#FFFFFFFF</color>
+	<color name="lavendar">#8C96FF</color>
+	<color name="_bg__signup_ek2_color">#C998DAD5</color>
+	<color name="rectangle_2_color">#ffffff</color>
+	<color name="first_name_color">#C7C7C7</color>
+	<color name="rectangle_3_color">#9A9A9A</color>
+	<color name="bubbleColor">#D30F0F</color>
+	<color name="primary">#1B023B</color>
+	<color name="secondary">#FF03DAC5</color>
+	<color name="nightMode">#6214B1</color>
+	<color name="notification">#13B2C3</color>
+	<color name="private_account">#E6A326</color>
+	<color name="security">#D95F69</color>
+	<color name="blui">#1B023B</color>
+	<color name="book">#379237</color>
+
+</resources>

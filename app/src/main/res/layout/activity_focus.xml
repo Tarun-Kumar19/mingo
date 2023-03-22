@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".focus">
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="96dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/union" />
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="329dp"
+        android:layout_height="62dp"
+        android:fontFamily="@font/capriola"
+        android:text="What Brings you "
+        android:textColor="@color/black"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.195"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.052" />
+
+    <TextView
+        android:id="@+id/subtitle"
+        android:layout_width="337dp"
+        android:layout_height="53dp"
+        android:fontFamily="@font/capriola"
+        android:text="to Meditation ?"
+        android:textColor="#3F414E"
+        android:textSize="28sp"
+        android:textStyle="normal"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/title"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.107" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="331dp"
+        android:layout_height="38dp"
+        android:fontFamily="@font/alegreya_sans"
+        android:text="Choose a topic to focus on"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.017"
+        app:layout_constraintStart_toStartOf="@+id/subtitle"
+        app:layout_constraintTop_toBottomOf="@+id/subtitle"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/stresscard"
+        android:layout_width="175dp"
+        android:layout_height="310dp"
+        android:layout_marginTop="20dp"
+        app:cardBackgroundColor="#808AFF"
+        app:cardCornerRadius="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/textView7"
+        app:layout_constraintTop_toBottomOf="@+id/textView7"
+        app:layout_constraintVertical_bias="0.013">
+
+
+        <ImageView
+            android:id="@+id/imgstress"
+            android:layout_width="164dp"
+            android:layout_height="146dp"
+            android:layout_marginLeft="7dp"
+            android:layout_marginTop="31dp"
+            app:srcCompat="@drawable/group_6786" />
+
+        <TextView
+            android:id="@+id/textstress"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="22dp"
+            android:layout_marginTop="179dp"
+            android:text="Reduce Stress"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardspritiual"
+        android:layout_width="172dp"
+        android:layout_height="259dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="16dp"
+        app:cardBackgroundColor="#FA6E5A"
+        app:cardCornerRadius="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.6"
+        app:layout_constraintStart_toEndOf="@+id/stresscard"
+        app:layout_constraintTop_toBottomOf="@+id/textView7">
+
+
+        <ImageView
+            android:id="@+id/imageView3imgspiritual"
+            android:layout_width="136dp"
+            android:layout_height="142dp"
+            android:layout_marginLeft="18dp"
+            android:layout_marginTop="30dp"
+            app:srcCompat="@drawable/spritual" />
+
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="22dp"
+            android:layout_marginTop="180dp"
+            android:text="Spiritual Mode"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardsleep"
+        android:layout_width="176dp"
+        android:layout_height="303dp"
+        android:layout_marginTop="24dp"
+        app:cardBackgroundColor="#3F414E"
+        app:cardCornerRadius="20dp"
+        app:layout_constraintEnd_toEndOf="@+id/stresscard"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/stresscard"
+        app:layout_constraintTop_toBottomOf="@+id/stresscard">
+
+
+        <ImageView
+            android:id="@+id/imgsleep"
+            android:layout_width="189dp"
+            android:layout_height="167dp"
+            android:layout_marginLeft="-4dp"
+            android:layout_marginTop="-1dp"
+            app:srcCompat="@drawable/sleep" />
+
+        <TextView
+            android:id="@+id/textsleep"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="31dp"
+            android:layout_marginTop="170dp"
+            android:text="Better Sleep"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/anxietycard"
+        android:layout_width="183dp"
+        android:layout_height="314dp"
+        android:layout_marginTop="28dp"
+        app:cardBackgroundColor="#808AFF"
+        app:cardCornerRadius="20dp"
+        app:layout_constraintEnd_toEndOf="@+id/imageView2"
+        app:layout_constraintHorizontal_bias="0.317"
+        app:layout_constraintStart_toEndOf="@+id/cardsleep"
+        app:layout_constraintTop_toBottomOf="@+id/cardspritiual">
+
+
+        <ImageView
+            android:id="@+id/imganxiety"
+            android:layout_width="139dp"
+            android:layout_height="164dp"
+            android:layout_marginLeft="18dp"
+            android:layout_marginTop="26dp"
+            app:srcCompat="@drawable/anx1" />
+
+        <TextView
+            android:id="@+id/textanxiety"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="217dp"
+            android:text="Reduce Anxiety"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+    </androidx.cardview.widget.CardView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

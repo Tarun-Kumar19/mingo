@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backgroundnew"
+    android:orientation="vertical"
+    android:backgroundTint="#F6F1F1"
+    tools:context=".news">
+
+
+    <TextView
+        android:layout_width="400dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginRight="5dp"
+        android:fontFamily="@font/capriola"
+        android:textStyle="bold"
+        android:text="Health News"
+        android:textColor="@color/black"
+        android:textSize="26sp">
+
+    </TextView>
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recycler_main"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginRight="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="0dp"
+
+        >
+
+    </androidx.recyclerview.widget.RecyclerView>
+
+</LinearLayout>
